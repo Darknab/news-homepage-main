@@ -1,0 +1,18 @@
+:root {
+    --font-size-100: 0.694rem;
+    --font-size-200: 0.833rem;
+    --font-size-300: 1rem;
+    --font-size-400: 1.2rem;
+    --font-size-500: 1.44rem;
+    --font-size-600: 1.728rem;
+    --font-size-700: 2.074rem;
+    --font-size-800: 2.488rem;
+    --font-size-900: 2.986rem;
+
+    --color-off-white: hsl(36, 100%, 99%);
+    --color-greyish-blue: hsl(233, 8%, 79%);
+    --color-dark-greyish-blue: hsl(236, 13%, 42%);
+    --color-dark-blue: hsl(240, 100%, 5%);
+    --color-soft-orange: hsl(35, 77%, 62%);
+    --color-soft-red: hsl(5, 85%, 63%);
+}
