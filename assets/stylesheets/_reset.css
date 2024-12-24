@@ -66,11 +66,9 @@ h2 {
 
 h3 {
     font-size: var(--font-size-400);
+    margin-block-end: var(--space-500);
 }
 
-h4 {
-    font-size: var(--font-size-600);
-}
 
 img {
     display: block;
