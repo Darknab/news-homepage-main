@@ -1,0 +1,34 @@
+.featured {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: var(--space-800);
+
+    @media (width > 375px) {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.card {
+    display: flex;
+    gap: var(--space-500);
+    margin-block: var(--space-700);
+}
+
+.big-number {
+    font-size: var(--font-size-700);
+    font-family: "Inter-Bold";
+    color: var(--color-greyish-blue);
+}
+
+.card-content h3 {
+    transition: color 200ms ease-in-out;
+
+    &:hover {
+        color: var(--color-soft-red);
+    }
+}
+
+.card content p {
+    font-size: var(--font-size-400);
+}
