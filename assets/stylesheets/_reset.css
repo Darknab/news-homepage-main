@@ -29,6 +29,7 @@
 
 body {
     font-size: 15px;
+    line-height: 1.5;
     color: var(--color-dark-blue);
     background-color: var(--color-off-white);
 }
@@ -60,11 +61,11 @@ button {
 }
 
 h2 {
-    font-size: var(--font-size-800);
+    font-size: var(--font-size-700);
 }
 
 h3 {
-    font-size: var(--font-size-700);
+    font-size: var(--font-size-400);
 }
 
 h4 {
