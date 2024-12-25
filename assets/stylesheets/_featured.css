@@ -1,5 +1,5 @@
 .featured {
-    max-width: 1440px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: var(--space-800);
 
@@ -13,6 +13,8 @@
     display: flex;
     gap: var(--space-500);
     margin-block: var(--space-700);
+    max-width: 380px;
+    align-content: stretch;
 }
 
 .big-number {
@@ -29,6 +31,6 @@
     }
 }
 
-.card content p {
-    font-size: var(--font-size-400);
+.card-text {
+    padding-inline-end: var(--space-500)
 }
