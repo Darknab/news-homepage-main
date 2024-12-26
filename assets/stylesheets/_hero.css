@@ -39,3 +39,15 @@
         grid-column-end: 4;
     }
 }
+
+@media (width < 375px) {
+    .hero {
+        padding: var(--space-500)
+    }
+
+    h1 {
+        font-size: var(--font-size-700);
+        line-height: 1.2;
+        margin-block: var(--space-700);
+    }
+}

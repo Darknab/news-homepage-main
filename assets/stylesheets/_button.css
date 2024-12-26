@@ -1,5 +1,5 @@
 button {
-    margin-top: var(--space-700);
+    margin-block: var(--space-700);
     padding-inline: var(--space-700);
     padding-block: var(--space-500);
     border-radius: var(--space-100);

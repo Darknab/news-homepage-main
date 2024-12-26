@@ -1,7 +1,8 @@
 header {
     max-width: 1200px;
     margin: 0 auto;
-    padding: var(--space-800)
+    padding: var(--space-800);
+    overflow-x: hidden;
 }
 
 nav {
@@ -60,4 +61,10 @@ ul li {
 
 .nav-link:hover {
     color: var(--color-soft-red);
+}
+
+@media (width < 375px) {
+    header {
+        padding: var(--space-500)
+    }
 }

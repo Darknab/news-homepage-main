@@ -10,11 +10,12 @@
 }
 
 .card {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     gap: var(--space-500);
+    align-items: stretch;
     margin-block: var(--space-700);
-    max-width: 380px;
-    align-content: stretch;
+    
 }
 
 .big-number {
@@ -23,8 +24,11 @@
     color: var(--color-greyish-blue);
 }
 
+
 .card-content h3 {
     transition: color 200ms ease-in-out;
+    font-size: var(--font-size-200);
+    margin-block: 0;
 
     &:hover {
         color: var(--color-soft-red);
@@ -32,5 +36,13 @@
 }
 
 .card-text {
-    padding-inline-end: var(--space-500)
+    padding-inline-end: var(--space-500);
+    font-size: var(--font-size-200);
 }
+
+@media (width < 375px) {
+    .featured {
+        padding: var(--space-500)
+    }
+}
+
