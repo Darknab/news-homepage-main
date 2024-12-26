@@ -5,13 +5,12 @@ button {
     border-radius: var(--space-100);
     border: none;
     background-color: var(--color-soft-red);
-    color: var(--color-dark-blue);
+    color: var(--color-off-white);
     text-transform: uppercase;
     letter-spacing: 3px;
     transition: all 200ms;
 
     &:hover {
         background-color: var(--color-dark-blue);
-        color: var(--color-off-white);
     }
 }
