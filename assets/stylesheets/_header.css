@@ -6,11 +6,32 @@ header {
 
 nav {
     display: flex;
+    position: relative;
 }
 
-nav ul {
+.links {
     display: flex;
     gap: var(--space-500);
+    background-color: var(--color-off-white);
+
+    @media (width < 375px) {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        min-width: 60vw;
+        min-height: 100vh;
+        padding-block-start: 20vh;
+        padding-inline-start: var(--space-500);
+        transform: translateX(100%);
+        opacity: 0;
+        transition: all 500ms ease-in-out;
+    }
+}
+
+.active {
+    transform: translateX(0);
+    opacity: 1
 }
 
 .home {
@@ -25,8 +46,16 @@ ul {
     margin-inline-start: auto;
 }
 
+ul li {
+    margin-block-end: var(--space-500);
+}
+
 .nav-link {
     transition: color 200ms;
+
+    @media (width < 375px) {
+        color: var(--color-dark-blue);
+    }
 }
 
 .nav-link:hover {
