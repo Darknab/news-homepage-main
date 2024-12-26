@@ -1,0 +1,38 @@
+.hamburger {
+    position: absolute;
+    right: 0;
+    top: var(--space-500);
+    z-index: 2;
+
+    @media (width > 375px) {
+        display: none;
+    }
+}
+
+.first,
+.second,
+.third {
+    opacity: 1;
+    transition: all 500ms ease-in-out;
+}
+
+.line {
+    width: 20px;
+    height: 2px;
+    background-color: var(--color-dark-blue);
+    margin-block-end: var(--space-100);
+}
+
+.rotate-left {
+    transform: rotate(45deg) translateX(45%);
+}
+
+.rotate-right {
+    transform: rotate(-45deg) translateX(45%);
+}
+
+.hide {
+    transform: translateX(100%);
+    opacity: 0;
+    
+}
